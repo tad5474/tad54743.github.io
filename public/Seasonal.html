@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Penn State Exploration Guide</title>
+  <Meta charset = "utf-8">
+      <link rel="stylesheet" href="styles/styles.css" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <nav id="list">
+        <ul>
+          <li> <a href="index.html">Home</a></li>
+          <li> <a href="Student.html">Student</a></li>
+          <li> <a href="Family.html">Family</a></li>
+          <li> <a href="Adult.html">Adult</a></li>
+          <li> <a href="Elderly.html">Elderly</a></li>
+          <li> <a href="Adventure.html">Adventure</a></li>
+        </ul>
+      </nav>
+      <H1>Seasonal Activities</H1>
+      <div id="masterContainer">
+      <div id="container1">
+        <div class="left">
+          <H2 onmouseover=colorTexteight(); onmouseleave=returnTexteight(); id="eight">Current Weather</H2>
+          <p id="currentWeather" class="left"></p>
+          <p id="currentTemperature" class="left"></p>
+        </div>
+        <div class="left">
+        <H2 onmouseover=colorTextseven(); onmouseleave=returnTextseven(); id="seven">Ideas Input</H2>
+        <form id = "ideaForm" class="left" method="POST">
+          <label class="left">Activity</label>
+          <input id="activity" name="activity" type="text">
+          <br>
+          <br>
+          <label class="left">Description</label>
+          <input id="description" name="description" type="text">
+          <br>
+          <br>
+          <button id="submit" type="submit">Submit</button>
+        </form>
+        <div>
+        <ul id="ideaList">
+        </ul>
+      </div>
+      </div>
+      <div id="dive" class="left">
+        <H2 onmouseover=colorTextfive(); onmouseleave=returnTextfive(); id="five">About</H2>
+              <p id="about">The goal of the Penn State Exploration Guide is to help anyone visiting or living in the State College area to find things that they like to do in the area.
+              We know that their are a large variety of tastes and preferences, so we have broken up our ideas into different groups.
+              This way no matter who you are or what you are interested in, our site should be able to help you find something you like in the State College area.
+              Our categories are Adventure, Elderly, Adult, Family, Student, and Seasonal but feel free to look through any category as many activities are enjoyable for people of all kinds!
+              </p>
+              </div>
+              <div id="divf" class="left">
+              <H2 onmouseover=colorTextsix(); onmouseleave=returnTextsix(); id="six">Helpful Links</H2>
+              <p id="links">
+              <a class="helpful" href="https://weather.com/weather/today/l/c7b59b7397457562b31804f85a1eaa6be940cb76531b3e85619d791913f60c61" target="_blank">State College Weather Forecast</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://gopsusports.com/sports/football/schedule/2020" target="_blank">Penn State Football Schedule</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://bjc.psu.edu/upcoming-events" target="_blank">Bryce Jordan Center  Schedule</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://admissions.psu.edu/pennstate/campuses/" target="_blank">Student Tours</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://www.thestatetheatre.org/" target="_blank">State Theatre Website</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://creamery.psu.edu/" target="_blank">Berkey Creamery</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://palmermuseum.psu.edu/" target="_blank">Palmer Museum of Art</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://gopsusports.com/sb_output.aspx?form=154&gclid=Cj0KCQjwm9D0BRCMARIsAIfvfIY8nMQIl_5-lnqKxhqqEAJTmbZLzDy2GNaVunMIymtnVtEFSbRuP8QaAtl-EALw_wcB&gclsrc=aw.ds" target="_blank">Non-Student Football Information</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://onwardstate.com/2019/06/12/freshman-101-how-to-buy-football-tickets/" target="_blank">Buying Freshman Football Tickets</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://thon.org" target="_blank">THON Website</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://arts-festival.com" target="_blank">Arts Festival</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://happyvalley.com/play/football-tailgating/" target="_blank">Football Tailgating</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://gopsusports.com/sports/mens-basketball" target="_blank">Basketball</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://www.natureinnatbaldeagle.com" target="_blank">Nature Inn</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://www.pennscave.com" target="_blank">Penn Cave</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://creamery.psu.edu" target="_blank">Creamery</a>
+              <br>
+              <br>
+            <a class="helpful" href="https://www.opp.psu.edu/campus-maps" target="_blank">Map of Penn State</a>
+              <br>
+              <br>
+            <a class="helpful" href="https://transportation.psu.edu/visitor-maps" target="_blank">Parking Garages at PSU</a>
+            </p>
+              </div>
+              </div>
+
+      <div id="container2">
+      <div id="diva">
+      <h2 onmouseover=colorTextone(); onmouseleave=returnTextone(); id="one"> Spring </h2>
+        <img src="images/spring.jpg" alt="spring" width="100%">
+        <p><b> Arboretum</b> </p>
+          <p> The arboretum is a great free activity to do at any age. Walk through the beautful gardens and admire the fountains and nature penn state has to offer. </p>
+          <p>Aboretum offers free parking close to the trails</p2>
+
+            <p><b> THON</b> </p>
+              <p>THON is Penn State’s proudest endeavor, for a good reason: The 46-hour dance marathon benefiting children battling cancer is the world's largest student-run philanthropy and has raised $147 million since its start in 1973. For one weekend in February each year, the Bryce Jordan Center is transformed into a giant bubble of color and energy and love. One visit and you’ll be displaying your ‘diamonds up’ For The Kids. Visit <a href="https://thon.org" target="_blank">here</a> for more information!</p>
+
+            <p><b>Farmers Market</b></p>
+            <p>It seems there’s a farmers market for every corner of the county, and that’s because this area is so rich in farms and folks who care about locally sourced food and products. The freshest produce, eggs, meat, cheese and so much more can be found each week at farmers markets around town. </p>
+        </div>
+
+
+        <div id="divb">
+        <h2 onmouseover=colorTexttwo(); onmouseleave=returnTexttwo(); id="two"> Fall </h2>
+        <img src="images/fall.jpg" alt="fall" width="100%">
+          <p> <b>Football games</b> </p>
+            <p> Get football tickets or just tailgate. Football tickets might cost a lot of money but it is a fun thing to do on a saturday. The atmosphere of Beaver Stadium on game day is unmatched. If you do not want to soend the money. Pack your car up with food and drinks and tailgate outside the stadium! </p>
+            <p> Get your student season tickets for about 250$ or buy off students per game. Click <a href="https://onwardstate.com/2019/06/12/freshman-101-how-to-buy-football-tickets/" target="_blank">here</a> for more information on how to order your student tickets. Adult tickets cost on average 110$ depending on the opponent. Click <a href="https://gopsusports.com/sb_output.aspx?form=154&gclid=Cj0KCQjwm9D0BRCMARIsAIfvfIY8nMQIl_5-lnqKxhqqEAJTmbZLzDy2GNaVunMIymtnVtEFSbRuP8QaAtl-EALw_wcB&gclsrc=aw.ds" target="_blank">here</a> for more information on all things football!</p>
+          </div>
+        </div>
+
+
+      <div id="container3">
+        <div id="divc">
+        <h2 onmouseover=colorTextthree(); onmouseleave=returnTextthree(); id="three"> Summer </h2>
+        <img src="images/summer.jpg" alt="summer" width="100%">
+          <p> <b>Arts Fest</b> </p>
+            <p> Arts Fest fall in the middle of july and a full week of fun! Bring your whole family to walk around and see the arts and taste the food. It is a free activity and great way to spend your afternoon. As a student, you can partake in fun daylongs that happen all along beaver and college ave. Click <a href="https://arts-festival.com" target="_blank">here</a> to get more information on Arts Fest!</p>
+
+
+          <p><b> Nature Inn</b></p>
+            <p>This nature-based inn is unlike anything in the PA parks system. Everything in and around the beautiful building was designed and built with the environment in mind. Guests can enjoy all that Bald Eagle State Park has to offer – or just sit and watch the birds from a private balcony.</p>
+
+          <p><b>Hike Mount Nittany</b></p>
+            <p>Hiking Mount Nittany is a rite of passage for any Penn State grad or local resident. Your hike can range from 2 to 8 miles, depending on which loop you take – but either way the view at the top is worth the climb. </p>
+          </div>
+
+      <div id="divd">
+      <h2 onmouseover=colorTextfour(); onmouseleave=returnTextfour(); id="four"> Winter </h2>
+      <img src="images/winter.jpg" alt="winter" width="100%">
+        <p> <b>Basketball games</b></p>
+          <p> We Are.... a basketball school!! Our nittany lions had an awesome 2020 season and we hope to see this continue. Students can get free meals and T-shirts during these games. </p>
+          <p> Student tickets cost only 5$ and for decent seats for an adult costs arounf 40$ depending on the opponent. Click <a href="https://gopsusports.com/sports/mens-basketball" target="_blank">here</a> for more information on Penn State Basketball!</p>
+
+        <p> <b>Hockey games</b></p>
+
+        <p> Students can get a season pass for about 165$ in the beginning of the season. You have to order online on the appointed day. Average cost for non-students is 130$ depending on opponent. However, you can find tickets as low as 18$. CLick <a href="https://gopsusports.com/sports/mens-ice-hockey" target="_blank">here</a> for more information!</p>
+      </div>
+    </div>
+  </div>
+  <script src="scripts/script.js" defer></script>
+    </body>
+    <div id="footer">
+
+      <footer>
+        <p><a href="index.html">Penn State Exploration Guide Home</a> &nbsp;&nbsp;-&nbsp;
+        Our Office: (814) 555-1234&nbsp;&nbsp;-&nbsp;
+        Last Update: April 2020</p>
+      </footer>
+    </div>
+      <br><br>
+  </html>

@@ -1,0 +1,195 @@
+* {
+background-color: #E0FBFC;
+}
+
+h1{
+  font-family: futura;
+  color: #FF6F59;
+  text-align: center;
+  padding-top: 70px;
+}
+
+h2 {
+  font-family: futura;
+  font-weight: lighter;
+  font-size: 25px;
+  color: #DB504A;
+}
+
+h3{
+  display: none;
+  font-family: futura;
+  font-size: 15px;
+  color: #04395E;
+  font-weight: bolder;
+}
+
+nav ul li{
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  padding: 5px 15px;
+  float: right;
+  top: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #04395E;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #DB504A;
+}
+
+body {
+  color: #031D44;
+  font-family: helvetica;
+  font-weight: lighter;
+  margin: 30px;
+}
+
+#inverted {
+  background-color: #031D44;
+  color: #E0FBFC;
+  padding: 30px;
+  width: 45%; /** adjust width accordingly to acrea on page so it doesn't take up the whole length as needed **/
+}
+
+/* img {
+      align-items: flex-start;
+      display: flex;
+      flex: 1 1 1100px;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      padding-left: 50px;
+      margin-left: 50px;
+}
+*/
+.scroll {
+  width: 20px;
+  height: 20px;
+  float: right;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+
+.scroll:hover {
+  opacity: 1;
+  font-size: 30px;
+  color: #152c52;
+  text-align: center;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+/* Use these ids for each "topic" diva will have your first picture and text along with it then divb will have your second set and so on
+div e and f are used for the links and about on the left*/
+#diva {
+  width: 100%;
+}
+
+#divb {
+  width: 100%;
+}
+
+#divc {
+  width: 100%;
+}
+
+#divd {
+  width: 100%;
+}
+
+#dive {
+  width: 100%;
+}
+
+#divf {
+  width: 100%;
+}
+/* each container is used for a column. container 1 is the left with the links and about container 2 is for the middle two activities and container 3 if for the 2 on the far right*/
+#container1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 22%;
+  margin: 1%;
+}
+
+#container2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify content: center;
+  width: 36%;
+  margin: 1%;
+}
+
+#container3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 36%;
+  margin 1%;
+}
+/*mastercontainer is to organize all of the containers*/
+#masterContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* the css below is used to make the boxes on the left with the about and helpful links*/
+#links {
+  background-color: #DDDDDD;
+}
+
+#about {
+  background-color: #DDDDDD;
+}
+
+#five {
+  background-color: #DDDDDD;
+}
+
+#six {
+  background-color: #DDDDDD;
+}
+
+#seven {
+  background-color: #DDDDDD;
+}
+
+#eight {
+  background-color: #DDDDDD;
+}
+
+.helpful {
+  background-color: #DDDDDD;
+}
+
+.left {
+  background-color: #DDDDDD;
+}

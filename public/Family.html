@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Penn State Exploration Guide</title>
+  <Meta charset = "utf-8">
+      <link rel="stylesheet" href="styles/styles.css" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <nav id="list">
+        <ul>
+          <li> <a href="index.html">Home</a></li>
+          <li> <a href="Seasonal.html">Seasonal</a></li>
+          <li> <a href="Student.html">Student</a></li>
+          <li> <a href="Adult.html">Adult</a></li>
+          <li> <a href="Elderly.html">Elderly</a></li>
+          <li> <a href="Adventure.html">Adventure</a></li>
+        </ul>
+      </nav>
+      <H1>Activities for Families</H1>
+      <div id="masterContainer">
+      <div id="container1">
+        <div class="left">
+          <H2 onmouseover=colorTexteight(); onmouseleave=returnTexteight(); id="eight">Current Weather</H2>
+          <p id="currentWeather" class="left"></p>
+          <p id="currentTemperature" class="left"></p>
+        </div>
+        <div class="left">
+        <H2 onmouseover=colorTextseven(); onmouseleave=returnTextseven(); id="seven">Ideas Input</H2>
+        <form id = "ideaForm" class="left" method="POST">
+          <label class="left">Activity</label>
+          <input id="activity" name="activity" type="text">
+          <br>
+          <br>
+          <label class="left">Description</label>
+          <input id="description" name="description" type="text">
+          <br>
+          <br>
+          <button id="submit" type="submit">Submit</button>
+        </form>
+        <div>
+        <ul id="ideaList">
+        </ul>
+      </div>
+      </div>
+      <div id="dive" class="left">
+        <H2 onmouseover=colorTextfive(); onmouseleave=returnTextfive(); id="five">About</H2>
+              <p id="about">The goal of the Penn State Exploration Guide is to help anyone visiting or living in the State College area to find things that they like to do in the area.
+              We know that their are a large variety of tastes and preferences, so we have broken up our ideas into different groups.
+              This way no matter who you are or what you are interested in, our site should be able to help you find something you like in the State College area.
+              Our categories are Adventure, Elderly, Adult, Family, Student, and Seasonal but feel free to look through any category as many activities are enjoyable for people of all kinds!
+              </p>
+              </div>
+              <div id="divf" class="left">
+              <H2 onmouseover=colorTextsix(); onmouseleave=returnTextsix(); id="six">Helpful Links</H2>
+              <p id="links">
+              <a class="helpful" href="https://weather.com/weather/today/l/c7b59b7397457562b31804f85a1eaa6be940cb76531b3e85619d791913f60c61" target="_blank">State College Weather Forecast</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://gopsusports.com/sports/football/schedule/2020" target="_blank">Penn State Football Schedule</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://bjc.psu.edu/upcoming-events" target="_blank">Bryce Jordan Center  Schedule</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://admissions.psu.edu/pennstate/campuses/" target="_blank">Student Tours</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://www.thestatetheatre.org/" target="_blank">State Theatre Website</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://creamery.psu.edu/" target="_blank">Berkey Creamery</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://palmermuseum.psu.edu/" target="_blank">Palmer Museum of Art</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://gopsusports.com/sb_output.aspx?form=154&gclid=Cj0KCQjwm9D0BRCMARIsAIfvfIY8nMQIl_5-lnqKxhqqEAJTmbZLzDy2GNaVunMIymtnVtEFSbRuP8QaAtl-EALw_wcB&gclsrc=aw.ds" target="_blank">Non-Student Football Information</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://onwardstate.com/2019/06/12/freshman-101-how-to-buy-football-tickets/" target="_blank">Buying Freshman Football Tickets</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://thon.org" target="_blank">THON Website</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://arts-festival.com" target="_blank">Arts Festival</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://happyvalley.com/play/football-tailgating/" target="_blank">Football Tailgating</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://gopsusports.com/sports/mens-basketball" target="_blank">Basketball</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://www.natureinnatbaldeagle.com" target="_blank">Nature Inn</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://www.pennscave.com" target="_blank">Penn Cave</a>
+              <br>
+              <br>
+              <a class="helpful" href="https://creamery.psu.edu" target="_blank">Creamery</a>
+              <br>
+              <br>
+            <a class="helpful" href="https://www.opp.psu.edu/campus-maps" target="_blank">Map of Penn State</a>
+              <br>
+              <br>
+            <a class="helpful" href="https://transportation.psu.edu/visitor-maps" target="_blank">Parking Garages at PSU</a>
+            </p>
+              </div>
+              </div>
+
+        <div id="container2">
+        <div id="diva">
+          <H2 onmouseover=colorTextone(); onmouseleave=returnTextone(); id="one">Downtown Destinations</H2>
+          <img src="images/golf.jpg" width=400px;> <p>If you're a fan of golf or want to try something new outdoors, the Penn State Golf Courses have what you need. There are two courses to choose from as well as a driving range.
+          If you are dedicated to the sport and you want to bring your own clubs, there are golf carts for rent- or if you want to try something new, you can also rent clubs. Tee times are all day and you can find the right price within your budget
+          by selecting a specific time and the number of holes you plan to play. Visit <a href="https://www.pennstategolfcourses.com/" target="_blank"> their website </a>for more info.
+        </p>
+        </div>
+
+        <div id="divb">
+          <H2 onmouseover=colorTexttwo(); onmouseleave=returnTexttwo(); id="two">Game Day Ideas</H2>
+          <img src="images/icecream.png" width=400px;>
+          <p>The Berkey Creamery is a staple of most people's visit to campus. With over 100 flavors and 32 flavors daily, there are so many delicious options
+              to pick from. As a favorite stop from children to alum alike, there are flavors and sweets for everyone. The creamery also provides other campus made
+              diary products such as cheeses, milks, spreads, yogurts, and more! Make sure you come hungry because the scoops are going to be the size of your head!
+          </p>
+        </div>
+      </div>
+
+      <div id="container3">
+        <div id="divc">
+        <H2 onmouseover=colorTextthree(); onmouseleave=returnTextthree(); id="three">Campus Attractions</H2>
+          <img src="images/lion.jpg" width=400px;>
+              <p>The Nittany Lion Shrine is a fun place to document your trip to Penn State. With a lovely treed background and lights at night, you can be sure to get a photo of your whole famiy showing their lion pride! The statue is located next to
+                Rec Hall and the Kern Building. There is parking nearby, as well as a convient bus stops.
+              </p>
+            </div>
+      <div id="divd">
+        <H2 onmouseover=colorTextfour(); onmouseleave=returnTextfour(); id="four">Nearby Options</H2>
+          <img src="images/cave.png" width=400px;>
+              <p>Penn's Cave is a fun outting for any age, but show your kids some historical wonders of the Pennsylvannia landscapes and caves. Only a 25 min drive
+                 from State College, you and your family can fill your afternoon with a exploritory boat ride and the wildlife park! Visit <a href="https://www.pennscave.com/" target="_blank"> their website </a>for more info.
+              </p>
+            </div>
+            </div>
+          </div>
+          <script src="scripts/script.js" defer></script>
+    </body>
+    <div id="footer">
+
+      <footer>
+        <p><a href="index.html">Penn State Exploration Guide Home</a> &nbsp;&nbsp;-&nbsp;
+        Our Office: (814) 555-1234&nbsp;&nbsp;-&nbsp;
+        Last Update: April 2020</p>
+      </footer>
+    </div>
+      <br><br>
+  </html>
